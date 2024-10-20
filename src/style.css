@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 38, 41);
+    align-items: center;
+    color: white;
+}
+.pokemon{
+    width: 300px;
+    background-color: rgba(46, 12, 24, 0.6);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 1s;
+}
+.pokemon:hover{
+    scale: 1.1;
+    transform: rotate(2deg);
+}
+img{
+    object-fit: cover;
+}
+.btn-go{
+    background-color: rgb(114, 42, 69);
+    border: none;
+}
+.btn-go:hover{
+    background-color: transparent;
+    border: 1px solid rgb(114, 42, 69);
+}
